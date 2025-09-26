@@ -14,7 +14,7 @@ Todas las contraseñas del archivo `.env` fueron generadas usando un generador d
 
 **Generador utilizado:** https://www.avast.com/random-password-generator#pc
 
-![Generador de contraseñas](image-4.png)
+<img width="1555" height="624" alt="image-4" src="https://github.com/user-attachments/assets/f2e1c116-ad08-4442-ba98-5fbf152c0c32" />
 
 ## Estructura del Proyecto
 
@@ -35,11 +35,7 @@ Todas las contraseñas del archivo `.env` fueron generadas usando un generador d
 # Configuración de PostgreSQL para n8n
 N8N_DB_NAME=n8n_database
 N8N_DB_USER=n8n_user
-N8N_DB_PASSWORD=
-
-# Configuración de autenticación para n8n
-N8N_BASIC_AUTH_USER=admin_n8n
-N8N_BASIC_AUTH_PASSWORD=
+N8N_DB_PASSWORD=PASSWORD
 ```
 
 ## Sistemas de Autenticación
@@ -86,14 +82,15 @@ docker-compose up -d
    - Apellido
    - Contraseña
 
-![Configuración inicial Owner Account](image-1.png)
+<img width="1301" height="795" alt="image-1" src="https://github.com/user-attachments/assets/47fa9a01-e4ef-44d6-9ba4-975c498e3d45" />
+
 3. **Accesos posteriores**: Login con las credenciales del Owner Account
 
-![alt text](image-5.png)
+<img width="1199" height="664" alt="image-5" src="https://github.com/user-attachments/assets/49f27cd5-b05d-48f6-a8e9-59fab1212abc" />
 
 4. **Dashboard inicial n8n**
 
-![Dashboard n8n](image-2.png)
+<img width="1583" height="826" alt="image-2" src="https://github.com/user-attachments/assets/6a6cfd7c-8da1-4707-a77a-c0eee50e8775" />
 
 ## Comandos de Uso
 
